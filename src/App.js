@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import StarParticles from './components/Particles/StarParticles';
-import './App.css';
+import Home from './components/Home/Home';
+import './App.sass';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
 
-        <StarParticles />
+        <Home />
 
       </div>
     );
