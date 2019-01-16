@@ -1,11 +1,17 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import StarParticles from '../Particles/StarParticles';
+import Title from '../Title/Title'
+import './home.sass';
 
-export default class Home extends Component {
+class Home extends Component {
     render() {
         return (
-            <div>
-
+            <div className="homeContainer">
+                <StarParticles />
+                <Title />
             </div>
         )
     }
 }
+
+export default Home;
