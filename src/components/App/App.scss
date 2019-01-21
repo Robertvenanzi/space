@@ -1,0 +1,7 @@
+.App {
+  text-align: center;
+  *::selection {
+    background-color: darkred;
+    color: white;
+  }
+}
