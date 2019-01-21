@@ -1,10 +1,11 @@
 import React from 'react'
-import './title.sass'
+import './title.scss'
 
 const Title = () => {
     return (
         <header className="titleContainer">
-            <h1 className="titleLogo"> Spaceman </h1>
+            <h2 className="greetingText">Explore the steller</h2>
+            <h1 className="titleLogo typewriter">Space<br /> Odyssey </h1>
         </header>
     )
 }
