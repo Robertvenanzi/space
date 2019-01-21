@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Particles from 'react-particles-js';
-import './StarParticles.sass';
+import './starParticles.scss';
 
 class StarParticles extends Component {
   render() {
